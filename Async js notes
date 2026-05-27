@@ -1,0 +1,13 @@
+-> jo bhi code likhoge woh 2 tarh ka ho skta h, asynchronous and syvhromous.
+ -> promises, callbacks , async await, setinterval, settimeout yeh sb jb bhi dikhe toh asynchronous hota h.
+ -> synchornus turnt chl jata h or asynchornous code baad me chlta h . 
+ -> js single threaded h jo ki synchornous code chlta h.
+ -> code me sbse phle synchornous part chlta h synchornous code ko js chlti h main thread pe , kyuki js s]js singlr threaded h , uska likha hua code chlna hojaata h ,  chaalu hota h phle nd main thread ocupy hojata h , aur main thread pe hamesha sbse phele pora synchronous code chelga , jb yeh poora code finidh hoga tb jaake async code ke chne ki baari aayegi
+ -> main thread = jaha pr sync code chlta h sbse phele.
+ -> main stack = jo bhi main stack pe aayegawo hi chlega 
+ -> webApi = browser ki tarf se kafi saare features ilte h jo js meain nii hota h wo featues hum js me use to krte h pr wo js ke eatures nii hote h wo browser se milte h 
+ -> callback queue = web se resolve hone ke baad jaata h isme or event loop check space krta h space tbtk isme rhta h.
+ -> microtask queue = 
+ -> macrotask queue= 
+-> sync => call stack => main thread execution.
+-> async => webApi => callback queue => (call stack empty) => call stack => maiN thread .
