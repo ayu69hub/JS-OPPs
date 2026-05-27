@@ -1,0 +1,13 @@
+-> problem ??
+-> agr tumhe kai sarre obj create krne ho tum sare obj ko alg alg varible me store karoge , jo ki ek achi practise nii h isse acha hoga ki tum ek class bnao jo ki naye naye obj banayegi aur wo har obj apna data khud hold krega and last me jitne bhi method hoge wo data share krege.
+-> class bnate h taki usse nye obj create kr sake..
+
+// constructor function(purana tarika objs bnane ka constructor fun se jb js mein class ka concept nii tha )
+
+function Cupcake(){
+
+}
+
+-> agr fun ko kabhi bhi call krte waqt tumhe new ka use kr liya turant man mein blank obj banao.
+->jb bhi fun mein this ko dekhho turant us blank obj ko yaad krke us jagh rakhdo.
+-> jb bhi construct bnaoge aur kuch aisa mil gya jo ki submein same h to usey kabhi direct cinstructor mein bnana glt tarika hota h , pr shi tareka h prototype ka use krna kyuiki prototype mein save krne pr jitne bhi new ke sath instance banaoge wo sare instance by default tumari proto ki value ko hold krega.
